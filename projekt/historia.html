@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="pl-PL">
+<head>
+<meta charset="UFT-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--  Tu dodałem plik CSS za pomocą rel - określa typ pliku oraz href - określa położenie pliku-->
+<link rel="stylesheet" href="C:\Users\MagicBoy\Desktop\projekt/historia.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+<!--  Tytuł -->
+<title class="tytul">Historia butów</title>
+<body>
+<h2 class="tytul"><i><B>Historia butów</B></i></h2>
+<!--  Ramka ze stroną -->
+<iframe class="yt" width="560" height="315" src="https://www.youtube.com/embed/L-CIiZWBARQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<!--  Linia pozioma -->
+<div id="menu">
+        <ul>
+        <li><a href="#" class="active">Strona główna</a></li>
+        <li><a href="https://www.linkedin.com/in/bartosz-bara%C5%84ski/" rel="follow" target="_blank">O mnie</a></li>
+		<a href="#section1">Historia klasyków Nike<br></a>
+		<a href="#section2">Historia klasyków Adidas<br></a>
+		<a href="https://www.thestreet.com/lifestyle/history-of-nike-15057083" rel="follow" target="_blank">Przejdź do Historii Nike<br></a>
+        <a href="https://www.thoughtco.com/quick-history-of-adidas-1444319" rel="follow" target="_blank">Przejdź do Historii Adidas<br></a>
+        </ul>
+</div>
+<!--  Dwa odnośniki na stronę - href z hasztagiem (odnośnik) pozwala przenieść do późniejszego opisanego id -->
+<!--  Dwa odnośniki na podstronę - href + nazwa podstrony  -->
+<!--  atrybut br przerzuca tekst do następnej linii -->
+<!--  Id do href = # -->
+<div id="checkbox">		
+	<form>
+    <fieldset>
+        <legend>Twoje dane</legend>
+        <label>Imię:
+            <input type="text" name="username" placeholder="Podaj imię">
+        </label>
+        <label>Email:
+            <input type="email" name="useremail" placeholder="Podaj email">
+        </label>
+        <input type="submit" value="Wyślij">
+    </fieldset>
+	  <label>Wyrażam zgodę na przetwarzanie danych
+          <input type="checkbox" name="agreement">
+      </label>
+</form>
+</div>
+<hr>
+<p id="section1">
+<!--  Tabelka -->
+<table class="tabela1">
+<!--  Tytuł tabelki -->
+ <thead>
+        <tr></tr>
+    </thead>
+	<!--  Wszystko co jest w tabelce jest w tbody, th określa nagłówek kolumny, tr określa rząd, td oznacza dane w komórce tabeli-->
+	<!--  Atrybut scope w nagłówku (th) określa zakres danych - col w przypadku kolumny i row w przypadku wiersza -->
+	   <tbody>
+    <tr>
+        <th></th>
+        <th scope="col">Model</th>
+        <th scope="col">Rok wydania</th>
+		<th scope="col"></th>
+    </tr>
+<!--  Hiperłącza wstawiamy po href, rel follow albo unfollow to atrybut dla googlebota i wiąże stronę z hiperlinkiem lub jej nie wiąże -->
+<!--  Brak target automatycznie otwiera stronę podlinkowaną na bieżącej karcie, _blank otwiera w nowej karcie -->
+<!--  Obrazek wstawiany musi mieć źródło - src, alt to tekst alternatywny w przypadku nieotwarcia obrazka, title to tekst wyświetlający się po najechaniu na obrazek -->
+	<tr>
+        <th scope="row">1.</th>
+        <td><a href="https://fajne-buty.com.pl/nike/cortez/" rel="follow" target="_blank">Cortez</a></td>
+        <td>1967</td>
+	    <td><img src="C:\Users\MagicBoy\Pictures/cortez.jpg" alt="Nike Cortez" width="250" height="251" title="Nike Cortez"></td>
+    </tr>
+    <tr>
+        <th scope="row">2.</th>
+        <td><a href="https://fajne-buty.com.pl/nike/air-force-1/" rel="follow" target="_blank">Air Force 1</a></td>
+        <td>1982</td>
+	    <td><img src="C:\Users\MagicBoy\Pictures/airforce1jpg.jpg" alt="Nike Air Force 1" width="250" height="251"title="Nike Air Force 1"></td>
+    </tr>
+    <tr>
+        <th scope="row">2.</th>
+        <td><a href="https://fajne-buty.com.pl/air-jordan-1-deep-royal-blue/" rel="follow" target="_blank">Air Jordan 1</a></td>
+        <td>1984</td>
+	    <td><img src="C:\Users\MagicBoy\Pictures/airjordan1.jpg" alt="Nike Air Jordan 1" width="250" height="251" title="Nike Air Jordan 1"></td>
+    </tr>
+	<tr>
+        <th scope="row">4.</th>
+        <td><a href="https://fajne-buty.com.pl/nike/air-max/" rel="follow" target="_blank">Air Max 1</a></td>
+        <td>1987</td>
+	    <td><img src="C:\Users\MagicBoy\Pictures/airmax1.jpg" alt="Nike Air Max 1" width="250" height="251" title="Nike Air Max 1"></td>		
+    </tr>
+	<tr>
+        <th scope="row">5.</th>
+        <td><a href="https://fajne-buty.com.pl/nike/air-max/" rel="follow" target="_blank">Air Max 90</a></td>
+        <td>1990</td>
+	    <td><img src="C:\Users\MagicBoy\Pictures/airmax90.jpg" alt="Nike Air Max 90" width="250" height="251" title="Nike Air Max 90"></td>
+	</tr>
+    <tr>
+        <th scope="row">6.</th>
+        <td><a href="https://fajne-buty.com.pl/nike/dunk/" rel="follow" target="_blank">Dunk</a></td>
+        <td>1992</td>
+	    <td><img src="C:\Users\MagicBoy\Pictures/dunk.jpg" alt="Nike Dunk Low" width="250" height="171" title="Nike Dunk Low"></td>
+    </tr>
+	<tr>
+        <th scope="row">7.</th>
+        <td><a href="https://fajne-buty.com.pl/nike/dunk/" rel="follow" target="_blank">Dunk SB</a></td>
+        <td>2002</td>
+	    <td><img src="C:\Users\MagicBoy\Pictures/dunksb.jpg" alt="Nike Dunk SB PRO" width="250" height="171" title="Nike Dunk SB PRO"></td>
+	</tbody>
+</table>
+</p>
+<p id="section2">
+<table class="tabela2">
+ <thead>
+        <tr></tr>
+    </thead>
+	   <tbody>
+    <tr>
+        <th></th>
+        <th scope="col">Model</th>
+        <th scope="col">Rok wydania</th>
+		<th scope="col"></th>
+    </tr>
+	<tr>
+        <th scope="row">1.</th>
+        <td><a href="https://fajne-buty.com.pl/adidas/superstar/" rel="follow" target="_blank">Superstar</a></td>
+        <td>1969</td>
+		<td><img src="C:\Users\MagicBoy\Pictures/superstar.jpg" alt="Adidas Superstar" width="250" height="251" title="Adidas Superstar"></td>
+    </tr>
+	<tr>
+        <th scope="row">2.</th>
+        <td><a href="https://fajne-buty.com.pl/adidas/zx-flux/" rel="follow" target="_blank">ZX 8000</a></td>
+        <td>1989</td>
+	    <td><img src="C:\Users\MagicBoy\Pictures/zx8000.jpg" alt="Adidas ZX 8000" width="250" height="251" title="Adidas ZX 8000"></td>
+    </tr>
+	<tr>
+        <th scope="row">2.</th>
+        <td><a href="https://fajne-buty.com.pl/nowoczesne-technologie-adidas-boost/" rel="follow" target="_blank">Ultraboost 1.0</a></td>
+        <td>2012</td>
+	    <td><img src="C:\Users\MagicBoy\Pictures/ultraboost.jpg" alt="Adidas Ultraboost 1.0" width="250" height="201" title="Adidas Ultraboost 1.0"></td>
+	</tr>
+	<tr>
+        <th scope="row">4.</th>
+        <td><a href="https://fajne-buty.com.pl/adidas-originals-x-kanye-west-yeezy-boost-350-v2-trzech-nowych-kolorystykach/" rel="follow" target="_blank">Yeezy</a></td>
+        <td>2014</td>
+	    <td><img src="C:\Users\MagicBoy\Pictures/yeezy.jpg" alt="Adidas Yeezy 700 OG" width="250" height="201" title="Adidas Yeezy 700 OG"></td>
+    </tr>
+	</tbody>
+</table>
+</p>
+</div>
+    <div id="footer">
+        <p>&copy Wszelkie prawa zastrzeżone. <br /> Projekt: <a href="https://www.nike.com/pl/launch">Buty to dusza człowieka</a></p>
+    </div>
+	<div id="uwaga">
+	<form>
+    <fieldset>
+        <label>
+            Twoje uwagi do tej strony:
+            <textarea cols="50" rows="10"></textarea>
+        </label>
+        <input type="submit" value="Zapisz">
+    </fieldset>
+    </form>
+	</div>
+</body>
+</html>
